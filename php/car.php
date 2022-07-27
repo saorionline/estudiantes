@@ -1,3 +1,4 @@
+<?php
 require_once('account.php');
 class Car {
     public $id;
@@ -14,3 +15,4 @@ class Car {
         echo "my-license: $this->license my-driver: ".$this->driver->name;
         }
 }
+?>

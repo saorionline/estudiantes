@@ -1,3 +1,4 @@
+<?php
 require_once('car.php');
 require_once('./uber-type/uber-van.php');
 require_once('./uber-type/uber-black.php.php');
@@ -9,3 +10,4 @@ $uberX->printDataCar();
 
 $uberPool = new UberPool("TRE323", new Account('Miss', '2345543ASD'), 'Mazda', 'Attitude');
 $uberPool->printDataCar();
+?>
