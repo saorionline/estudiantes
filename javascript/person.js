@@ -1,5 +1,11 @@
-var person new Person();
+class Driver extends Account {
+    constructor(name, document, email, password) {
+        super(name, document, email, password);
+    }
+}
 
-function Person(name) {
-    this.name = name;
+class Passenger extends Account {
+    constructor(name, document, email, password) {
+        super(name, document, email, password);
+    }
 }

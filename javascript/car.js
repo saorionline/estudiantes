@@ -1,9 +1,9 @@
-class Car {
+class Car extends Account{
     constructor( license, driver) {
-    this.id;
-    this.license = license;
-    this.driver = driver;
-    this.passenger;
+        this.id;
+        this.license = license;
+        this.driver = driver;
+        this.passenger;
     }
     printDataCar () {
         console.log(this.driver)

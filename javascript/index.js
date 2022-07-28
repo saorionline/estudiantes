@@ -5,3 +5,6 @@ car.printDataCar();
 var uberX = new UberX('SAS545', new Account('Feliza', '6437833IOO'))
 car.passenger = 3;
 car.printDataCar();
+
+var passenger = new Passenger();
+var driver = new Driver();
